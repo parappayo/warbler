@@ -1,10 +1,12 @@
-# warbler
+# Warbler
 
 "Warbler" is a warbley art generator, implemented as a simple vanilla JavaScript web UI.
 
 ## Usage
 
-Host on a web server, eg. for local use try the following:
+[Click here to use Warbler in Github pages](https://parappayo.github.io/warbler).
+
+To host Warbler on a web server, eg. for local use try the following:
 
 ```
 python3 -m http.server
