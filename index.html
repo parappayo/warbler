@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Image Gen</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="tx.js"></script>
+  <script src="gen.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body onload="onBodyLoad()">
+  <input type="text" id="imgSrc1" value="./input.jpg" />
+  <input type="button" onclick="onClickLoad()" value="load" />
+  <br />
+  <label for="warble1">Warble 1</label>
+  <input type="range" id="warble1" min="10" max="400" value="200" step="1" />
+  <label for="warble2">Warble 2</label>
+  <input type="range" id="warble2" min="10" max="800" value="600" step="1" />
+  <label for="stripe_width">Stripe Width</label>
+  <input type="range" id="stripe_width" min="2" max="400" value="120" step="1" />
+  <hr />
+  <canvas id="canvas1" />
+</body>
+
+</html>
